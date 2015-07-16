@@ -1,0 +1,15 @@
+{
+    "NAME": "KSPtoMarsMod",
+    "URL": "https://raw.githubusercontent.com/KSPtoMars/KSPtoMarsMod/master/GameData/KSPtoMars/KSPtoMarsMod.version",
+    "DOWNLOAD": "https://github.com/KSPtoMars/KSPtoMarsMod/releases/latest",
+    "VERSION": {
+        "MAJOR": 0,
+        "MINOR": 0,
+        "PATCH": 2
+    },
+    "KSP_VERSION": {
+        "MAJOR": 1,
+        "MINOR": 0,
+        "PATCH": 4
+    }
+}
