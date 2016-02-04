@@ -1,13 +1,13 @@
-ship = MAV v4.0 Descent Stage
+ship = MAV v4.1 Descent Stage
 version = 1.0.4
-description = 
+description = MAV-DS v4.1 Revision 1 2016-02-04 by Charlie Zulu for KSPtM. 
 type = VAB
-size = 11.55504,6.787621,11.5435
+size = 11.54385,6.832048,11.5186
 PART
 {
 	part = KSPtMaeroshellMAV_4293883522
 	partName = Part
-	pos = 0,15,0
+	pos = 0,15.49501,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
 	rot = 0,0,0,1
@@ -50,7 +50,6 @@ PART
 	link = FASAApolloLFERL10_4293826256
 	link = escaleralad1_4293811646
 	link = telescopicLadderBay_4293780234
-	link = escalerar2s_4293809904
 	link = escaleralad1_4293778138
 	link = hc.navcam_4293764168
 	link = hc.navcam_4293763650
@@ -62,11 +61,16 @@ PART
 	link = landingLeg1_4293751192
 	link = landingLeg1_4293751076
 	link = landingLeg1_4293750960
-	link = KSPtM.MAV.heatshield_4293871790
 	link = KSPtMtankDescentMAV_4293679606
 	link = KSPtMtankDescentMAV_4293679314
 	link = KSPtMtankDescentMAV_4293679268
 	link = KSPtMtankDescentMAV_4293679222
+	link = escaleralad1_4294161510
+	link = escaleralad1_4294161382
+	link = escaleralad1_4294161166
+	link = escaleralad1_4294146006
+	link = KSPtM.MAV.heatshield_4293950900
+	link = KW5mStageDecoupler_4294245674
 	attN = bottom01pointyNoseConeB2,FASAApolloLFERL10_4293827778
 	attN = bottom01pointyNoseConeB3,FASAApolloLFERL10_4293827228
 	attN = bottom01pointyNoseConeB7,FASAApolloLFERL10_4293828662
@@ -75,7 +79,8 @@ PART
 	attN = bottom01pointyNoseConeB13,FASAApolloLFERL10_4293829116
 	attN = bottom01pointyNoseConeB17,FASAApolloLFERL10_4293826256
 	attN = bottom01pointyNoseConeB18,FASAApolloLFERL10_4293826772
-	attN = bottomKSPtMadapterMAV6x11.4m0,KSPtM.MAV.heatshield_4293871790
+	attN = top,KW5mStageDecoupler_4294245674
+	attN = bottomKSPtMadapterMAV6x11.4m0,KSPtM.MAV.heatshield_4293950900
 	EVENTS
 	{
 	}
@@ -1354,7 +1359,7 @@ PART
 {
 	part = vernierEngine_4293847126
 	partName = Part
-	pos = -3.61095,13.5435,3.95
+	pos = -3.61095,14.03851,3.95
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = -3.61095,-1.437033,3.95
 	rot = 0.0888368,-0.4875551,0.3098108,-0.811428
@@ -1584,7 +1589,7 @@ PART
 {
 	part = vernierEngine_4293846460
 	partName = Part
-	pos = 3.95,13.5435,3.61095
+	pos = 3.95,14.03851,3.61095
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = 3.95,-1.437033,3.61095
 	rot = 0.2818864,-0.9185198,0.1562522,-0.2290127
@@ -1814,7 +1819,7 @@ PART
 {
 	part = vernierEngine_4293846380
 	partName = Part
-	pos = 3.61095,13.5435,-3.95
+	pos = 3.61095,14.03851,-3.95
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = 3.61095,-1.437033,-3.95
 	rot = 0.3098108,-0.811428,-0.08883682,0.4875552
@@ -2044,7 +2049,7 @@ PART
 {
 	part = vernierEngine_4293846300
 	partName = Part
-	pos = -3.95,13.5435,-3.61095
+	pos = -3.95,14.03851,-3.61095
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = -3.95,-1.437033,-3.61095
 	rot = 0.1562522,-0.2290127,-0.2818864,0.9185198
@@ -2274,7 +2279,7 @@ PART
 {
 	part = vernierEngine_4293847348
 	partName = Part
-	pos = -3.95,13.5435,3.61095
+	pos = -3.95,14.03851,3.61095
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = -3.95,-1.436041,3.61095
 	rot = -0.1562521,0.2290129,-0.2818862,0.9185198
@@ -2504,7 +2509,7 @@ PART
 {
 	part = vernierEngine_4293841596
 	partName = Part
-	pos = 3.61095,13.5435,3.95
+	pos = 3.61095,14.03851,3.95
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = 3.61095,-1.436041,3.95
 	rot = -0.3098105,0.8114282,-0.08883674,0.487555
@@ -2734,7 +2739,7 @@ PART
 {
 	part = vernierEngine_4293841526
 	partName = Part
-	pos = 3.95,13.5435,-3.61095
+	pos = 3.95,14.03851,-3.61095
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = 3.95,-1.436041,-3.61095
 	rot = -0.2818862,0.9185198,0.1562521,-0.229013
@@ -2964,7 +2969,7 @@ PART
 {
 	part = vernierEngine_4293841456
 	partName = Part
-	pos = -3.61095,13.5435,-3.95
+	pos = -3.61095,14.03851,-3.95
 	attPos = 0.01296735,-0.02457333,-0.01296735
 	attPos0 = -3.61095,-1.436041,-3.95
 	rot = -0.08883674,0.487555,0.3098105,-0.8114282
@@ -3194,7 +3199,7 @@ PART
 {
 	part = vernierEngine_4293848166
 	partName = Part
-	pos = -3.8,13.5435,3.8
+	pos = -3.8,14.03851,3.8
 	attPos = 0.02070475,-0.02255249,-0.02070475
 	attPos0 = -3.836598,-1.433943,3.836597
 	rot = 0.1233372,-0.3622631,0.2977625,-0.8745804
@@ -3424,7 +3429,7 @@ PART
 {
 	part = vernierEngine_4293840660
 	partName = Part
-	pos = 3.8,13.5435,3.8
+	pos = 3.8,14.03851,3.8
 	attPos = -0.02070475,-0.02255249,-0.02070475
 	attPos0 = 3.836597,-1.433943,3.836598
 	rot = 0.2977625,-0.8745804,0.1233373,-0.362263
@@ -3654,7 +3659,7 @@ PART
 {
 	part = vernierEngine_4293840602
 	partName = Part
-	pos = 3.8,13.5435,-3.8
+	pos = 3.8,14.03851,-3.8
 	attPos = -0.02070475,-0.02255249,0.02070475
 	attPos0 = 3.836598,-1.433943,-3.836597
 	rot = 0.2977625,-0.8745804,-0.1233373,0.3622632
@@ -3884,7 +3889,7 @@ PART
 {
 	part = vernierEngine_4293840544
 	partName = Part
-	pos = -3.8,13.5435,-3.8
+	pos = -3.8,14.03851,-3.8
 	attPos = 0.02070475,-0.02255249,0.02070475
 	attPos0 = -3.836597,-1.433943,-3.836597
 	rot = 0.1233373,-0.362263,-0.2977625,0.8745804
@@ -4114,7 +4119,7 @@ PART
 {
 	part = KWsrbGlobeV_4293799176
 	partName = Part
-	pos = 3.221334,14.74068,-3.221334
+	pos = 3.221334,15.23569,-3.221334
 	attPos = -0.3330224,0.5556765,0.3330224
 	attPos0 = 3.554357,-0.8149958,-3.554356
 	rot = -0.1317731,0.8673798,0.3181284,0.3592804
@@ -4122,10 +4127,10 @@ PART
 	attRot0 = -0.1317731,0.8673798,0.3181284,0.3592804
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 2
 	dstg = 0
 	sidx = 0
-	sqor = 0
+	sqor = 2
 	sepI = 0
 	attm = 1
 	modCost = 0.7243
@@ -4491,7 +4496,7 @@ PART
 {
 	part = KWsrbGlobeV_4293798980
 	partName = Part
-	pos = -3.221333,14.74068,-3.221334
+	pos = -3.221333,15.23569,-3.221334
 	attPos = 0.3330224,0.5556765,0.3330224
 	attPos0 = -3.554356,-0.8149958,-3.554357
 	rot = 0.1317731,0.8673798,0.3181285,-0.3592805
@@ -4499,10 +4504,10 @@ PART
 	attRot0 = 0.1317731,0.8673798,0.3181285,-0.3592805
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 2
 	dstg = 0
 	sidx = 1
-	sqor = 0
+	sqor = 2
 	sepI = 0
 	attm = 1
 	modCost = 0.7243
@@ -4868,7 +4873,7 @@ PART
 {
 	part = KWsrbGlobeV_4293798858
 	partName = Part
-	pos = -3.221334,14.74068,3.221334
+	pos = -3.221334,15.23569,3.221334
 	attPos = 0.3330224,0.5556765,-0.3330224
 	attPos0 = -3.554356,-0.8149958,3.554356
 	rot = 0.3181285,0.3592804,0.1317731,-0.8673798
@@ -4876,10 +4881,10 @@ PART
 	attRot0 = 0.3181285,0.3592804,0.1317731,-0.8673798
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 2
 	dstg = 0
 	sidx = 2
-	sqor = 0
+	sqor = 2
 	sepI = 0
 	attm = 1
 	modCost = 0.7243
@@ -5245,7 +5250,7 @@ PART
 {
 	part = KWsrbGlobeV_4293798736
 	partName = Part
-	pos = 3.221334,14.74068,3.221334
+	pos = 3.221334,15.23569,3.221334
 	attPos = -0.3330224,0.5556765,-0.3330224
 	attPos0 = 3.554356,-0.8149958,3.554356
 	rot = 0.3181285,-0.3592805,-0.1317731,-0.8673798
@@ -5253,10 +5258,10 @@ PART
 	attRot0 = 0.3181285,-0.3592805,-0.1317731,-0.8673798
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 2
 	dstg = 0
 	sidx = 3
-	sqor = 0
+	sqor = 2
 	sepI = 0
 	attm = 1
 	modCost = 0.7243
@@ -5622,7 +5627,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293831630
 	partName = Part
-	pos = 3.289148,14.21145,-2.422328
+	pos = 3.289148,14.70646,-2.422328
 	attPos = 0,0,0
 	attPos0 = 3.289148,-0.7885475,-2.422328
 	rot = -0.088542,0.9921294,0.088542,0
@@ -5630,10 +5635,10 @@ PART
 	attRot0 = -0.088542,0.9921294,0.088542,0
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 4
-	sqor = 0
+	sidx = 0
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -5780,7 +5785,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -6111,7 +6116,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293829116
 	partName = Part
-	pos = 2.422328,14.21145,-3.289148
+	pos = 2.422328,14.70646,-3.289148
 	attPos = 0,0,0
 	attPos0 = 2.422328,-0.7885475,-3.289148
 	rot = -0.088542,0.9921294,0.088542,0
@@ -6119,10 +6124,10 @@ PART
 	attRot0 = -0.088542,0.9921294,0.088542,0
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 5
-	sqor = 0
+	sidx = 1
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -6269,7 +6274,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -6600,7 +6605,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293828662
 	partName = Part
-	pos = 2.422328,14.21145,3.289148
+	pos = 2.422328,14.70646,3.289148
 	attPos = 0,0,0
 	attPos0 = 2.422328,-0.7885475,3.289148
 	rot = -0.1252173,0.7015414,0,0.7015414
@@ -6608,10 +6613,10 @@ PART
 	attRot0 = -0.1252173,0.7015414,0,0.7015414
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 6
-	sqor = 0
+	sidx = 2
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -6758,7 +6763,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -7089,7 +7094,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293828152
 	partName = Part
-	pos = 3.289148,14.21145,2.422328
+	pos = 3.289148,14.70646,2.422328
 	attPos = 0,0,0
 	attPos0 = 3.289148,-0.7885475,2.422328
 	rot = -0.1252173,0.7015414,0,0.7015414
@@ -7097,10 +7102,10 @@ PART
 	attRot0 = -0.1252173,0.7015414,0,0.7015414
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 7
-	sqor = 0
+	sidx = 3
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -7247,7 +7252,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -7578,7 +7583,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293827778
 	partName = Part
-	pos = -3.289148,14.21145,2.422328
+	pos = -3.289148,14.70646,2.422328
 	attPos = 0,0,0
 	attPos0 = -3.289148,-0.7885475,2.422328
 	rot = -0.08854201,0,-0.08854201,0.9921294
@@ -7586,10 +7591,10 @@ PART
 	attRot0 = -0.08854201,0,-0.08854201,0.9921294
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 8
-	sqor = 0
+	sidx = 4
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -7736,7 +7741,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -8067,7 +8072,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293827228
 	partName = Part
-	pos = -2.422328,14.21145,3.289148
+	pos = -2.422328,14.70646,3.289148
 	attPos = 0,0,0
 	attPos0 = -2.422328,-0.7885475,3.289148
 	rot = -0.08854201,0,-0.08854201,0.9921294
@@ -8075,10 +8080,10 @@ PART
 	attRot0 = -0.08854201,0,-0.08854201,0.9921294
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 9
-	sqor = 0
+	sidx = 5
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -8225,7 +8230,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -8556,7 +8561,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293826772
 	partName = Part
-	pos = -3.289148,14.21145,-2.422328
+	pos = -3.289148,14.70646,-2.422328
 	attPos = 0,0,0
 	attPos0 = -3.289148,-0.7885475,-2.422328
 	rot = 0,-0.7015414,-0.1252173,0.7015414
@@ -8564,10 +8569,10 @@ PART
 	attRot0 = 0,-0.7015414,-0.1252173,0.7015414
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 10
-	sqor = 0
+	sidx = 6
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -8714,7 +8719,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -9045,7 +9050,7 @@ PART
 {
 	part = FASAApolloLFERL10_4293826256
 	partName = Part
-	pos = -2.422318,14.21145,-3.289148
+	pos = -2.422318,14.70646,-3.289148
 	attPos = 0,0,0
 	attPos0 = -2.422318,-0.7885475,-3.289148
 	rot = 0,-0.7015414,-0.1252173,0.7015414
@@ -9053,10 +9058,10 @@ PART
 	attRot0 = 0,-0.7015414,-0.1252173,0.7015414
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
-	sidx = 11
-	sqor = 0
+	sidx = 7
+	sqor = 1
 	sepI = 0
 	attm = 0
 	modCost = 1500
@@ -9203,7 +9208,7 @@ PART
 				active = False
 				guiActive = False
 				guiIcon = Jettison
-				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
+				guiName = Jettison(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)(DEPRECATED)
 				category = Jettison
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -9534,7 +9539,7 @@ PART
 {
 	part = escaleralad1_4293811646
 	partName = Strut
-	pos = 3.109638,16.87741,1.879556E-07
+	pos = 3.109638,17.37242,1.879556E-07
 	attPos = -0.01671696,-0.03155708,-2.607294E-09
 	attPos0 = 3.126355,1.908972,1.905629E-07
 	rot = -0.214296,0.6738526,-0.214296,-0.6738525
@@ -9678,8 +9683,8 @@ PART
 {
 	part = telescopicLadderBay_4293780234
 	partName = Part
-	pos = 5.137389,13.95541,3.080117E-07
-	attPos = 0.09280157,-0.1311502,7.330812E-09
+	pos = 5.090641,14.51982,3.04337E-07
+	attPos = 0.04605341,-0.06175131,3.65614E-09
 	attPos0 = 5.044587,-0.9134436,3.006809E-07
 	rot = -0.3030603,0.9529714,-1.053671E-08,4.214685E-08
 	attRot = 0,0,0,1
@@ -9882,199 +9887,9 @@ PART
 }
 PART
 {
-	part = escalerar2s_4293809904
-	partName = Part
-	pos = 3.978196,15.59493,2.368063E-07
-	attPos = 0.03903985,-0.05517292,2.014289E-09
-	attPos0 = 3.939157,0.6501064,2.34792E-07
-	rot = -0.2142959,0.6738526,-0.214296,-0.6738526
-	attRot = 0,0,0,1
-	attRot0 = -0.2142959,0.6738526,-0.214296,-0.6738526
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,KSPtMaeroshellMAV_4293883522
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		status = Locked
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = toggle
-				category = Toggle
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = BBModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = USI_ModuleRecycleablePart
-		isEnabled = True
-		EVENTS
-		{
-			ScrapPart
-			{
-				active = True
-				guiActive = False
-				guiIcon = Scrap part
-				guiName = Scrap Part
-				category = Scrap part
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = USI_ModuleRecycleablePart
-		isEnabled = True
-		EVENTS
-		{
-			ScrapPart
-			{
-				active = True
-				guiActive = False
-				guiIcon = Scrap part
-				guiName = Salvage Part
-				category = Scrap part
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableAnimateGeneric
-		isEnabled = True
-		startCompleted = False
-		startCompleted_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
 	part = escaleralad1_4293778138
 	partName = Strut
-	pos = 3.429785,16.42837,2.055244E-07
+	pos = 3.429785,16.92338,2.055244E-07
 	attPos = -0.03690219,-0.0261116,-3.368115E-09
 	attPos0 = 3.466687,1.454477,2.088925E-07
 	rot = -0.214296,0.6738526,-0.214296,-0.6738525
@@ -10218,11 +10033,11 @@ PART
 {
 	part = hc.navcam_4293764168
 	partName = Part
-	pos = 5.695376,13.08888,3.394709E-07
+	pos = -2.847688,13.58389,4.93234
 	attPos = 0,0,0
 	attPos0 = 5.695376,-1.911124,3.394709E-07
-	rot = 0.4999993,0.5000007,-0.4999993,0.5000007
-	attRot = 0,0,0,1
+	rot = 0.7663198,-0.1575593,0.2053347,0.5880194
+	attRot = -0.1305263,-2.035368E-08,-8.683759E-09,-0.9914449
 	attRot0 = 0.4999993,0.5000007,-0.4999993,0.5000007
 	mir = 1,1,1
 	symMethod = Radial
@@ -10313,47 +10128,6 @@ PART
 		isEnabled = True
 		EVENTS
 		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = JSIExternalCameraSelector
-		isEnabled = True
-		current = 1
-		showCones = False
-		showCones_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			IdPlus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID +
-				guiName = ID +
-				category = ID +
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			IdMinus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID -
-				guiName = ID -
-				category = ID -
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
 		}
 		ACTIONS
 		{
@@ -10465,11 +10239,11 @@ PART
 {
 	part = hc.navcam_4293763650
 	partName = Part
-	pos = 2.847688,13.08888,-4.93234
+	pos = 2.847689,13.58389,4.93234
 	attPos = 0,0,0
 	attPos0 = 2.847688,-1.911124,-4.93234
-	rot = 0.1830125,0.6830136,-0.6830118,0.1830129
-	attRot = 0,0,0,1
+	rot = 0.7663198,0.1575593,-0.2053348,0.5880193
+	attRot = -0.1305263,-2.035368E-08,-8.683759E-09,-0.9914449
 	attRot0 = 0.1830125,0.6830136,-0.6830118,0.1830129
 	mir = 1,1,1
 	symMethod = Radial
@@ -10560,47 +10334,6 @@ PART
 		isEnabled = True
 		EVENTS
 		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = JSIExternalCameraSelector
-		isEnabled = True
-		current = 1
-		showCones = False
-		showCones_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			IdPlus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID +
-				guiName = ID +
-				category = ID +
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			IdMinus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID -
-				guiName = ID -
-				category = ID -
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
 		}
 		ACTIONS
 		{
@@ -10712,11 +10445,11 @@ PART
 {
 	part = hc.navcam_4293763594
 	partName = Part
-	pos = -2.847688,13.08888,-4.93234
+	pos = 5.695376,13.58389,-6.563403E-07
 	attPos = 0,0,0
 	attPos0 = -2.847688,-1.911124,-4.93234
-	rot = -0.1830125,0.6830136,-0.6830118,-0.183013
-	attRot = 0,0,0,1
+	rot = 0.560985,0.43046,-0.560985,0.43046
+	attRot = -0.1305263,-2.035368E-08,-8.683759E-09,-0.9914449
 	attRot0 = -0.1830125,0.6830136,-0.6830118,-0.183013
 	mir = 1,1,1
 	symMethod = Radial
@@ -10807,47 +10540,6 @@ PART
 		isEnabled = True
 		EVENTS
 		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = JSIExternalCameraSelector
-		isEnabled = True
-		current = 1
-		showCones = False
-		showCones_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			IdPlus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID +
-				guiName = ID +
-				category = ID +
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			IdMinus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID -
-				guiName = ID -
-				category = ID -
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
 		}
 		ACTIONS
 		{
@@ -10959,11 +10651,11 @@ PART
 {
 	part = hc.navcam_4293763538
 	partName = Part
-	pos = -5.695376,13.08888,1.584347E-07
+	pos = -5.695376,13.58389,1.584347E-07
 	attPos = 0,0,0
 	attPos0 = -5.695376,-1.911124,1.584347E-07
-	rot = -0.4999994,0.5000007,-0.4999993,-0.5000007
-	attRot = 0,0,0,1
+	rot = 0.560985,-0.43046,0.560985,0.43046
+	attRot = -0.1305263,-2.035368E-08,-8.683759E-09,-0.9914449
 	attRot0 = -0.4999994,0.5000007,-0.4999993,-0.5000007
 	mir = 1,1,1
 	symMethod = Radial
@@ -11054,47 +10746,6 @@ PART
 		isEnabled = True
 		EVENTS
 		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = JSIExternalCameraSelector
-		isEnabled = True
-		current = 1
-		showCones = False
-		showCones_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			IdPlus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID +
-				guiName = ID +
-				category = ID +
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			IdMinus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID -
-				guiName = ID -
-				category = ID -
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
 		}
 		ACTIONS
 		{
@@ -11206,11 +10857,11 @@ PART
 {
 	part = hc.navcam_4293763482
 	partName = Part
-	pos = -2.847688,13.08888,4.932341
+	pos = 2.847688,13.58389,-4.932341
 	attPos = 0,0,0
 	attPos0 = -2.847688,-1.911124,4.932341
-	rot = -0.6830118,0.1830129,-0.1830124,-0.6830137
-	attRot = 0,0,0,1
+	rot = 0.2053347,0.5880193,-0.7663198,0.1575593
+	attRot = -0.1305263,-2.035368E-08,-8.683759E-09,-0.9914449
 	attRot0 = -0.6830118,0.1830129,-0.1830124,-0.6830136
 	mir = 1,1,1
 	symMethod = Radial
@@ -11301,47 +10952,6 @@ PART
 		isEnabled = True
 		EVENTS
 		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = JSIExternalCameraSelector
-		isEnabled = True
-		current = 1
-		showCones = False
-		showCones_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			IdPlus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID +
-				guiName = ID +
-				category = ID +
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			IdMinus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID -
-				guiName = ID -
-				category = ID -
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
 		}
 		ACTIONS
 		{
@@ -11453,11 +11063,11 @@ PART
 {
 	part = hc.navcam_4293763426
 	partName = Part
-	pos = 2.847687,13.08888,4.932341
+	pos = -2.847687,13.58389,-4.932341
 	attPos = 0,0,0
 	attPos0 = 2.847687,-1.911124,4.932341
-	rot = -0.6830118,-0.1830129,0.1830124,-0.6830137
-	attRot = 0,0,0,1
+	rot = -0.2053348,0.5880194,-0.7663198,-0.1575593
+	attRot = -0.1305263,-2.035368E-08,-8.683759E-09,-0.9914449
 	attRot0 = -0.6830118,-0.1830129,0.1830124,-0.6830136
 	mir = 1,1,1
 	symMethod = Radial
@@ -11548,47 +11158,6 @@ PART
 		isEnabled = True
 		EVENTS
 		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = JSIExternalCameraSelector
-		isEnabled = True
-		current = 1
-		showCones = False
-		showCones_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			IdPlus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID +
-				guiName = ID +
-				category = ID +
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			IdMinus
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = ID -
-				guiName = ID -
-				category = ID -
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
 		}
 		ACTIONS
 		{
@@ -11700,7 +11269,7 @@ PART
 {
 	part = landingLeg1_4293754854
 	partName = Part
-	pos = 4.920599,13.61237,2.809744E-07
+	pos = 4.920599,14.10738,2.809744E-07
 	attPos = -0.4242105,0.1930437,-3.443847E-08
 	attPos0 = 5.34481,-1.580674,3.154129E-07
 	rot = 1.280578E-08,4.049912E-08,-0.384964,-0.9229316
@@ -11956,7 +11525,7 @@ PART
 {
 	part = landingLeg1_4293751192
 	partName = Part
-	pos = 5.74265E-07,13.61237,-4.920599
+	pos = 5.74265E-07,14.10738,-4.920599
 	attPos = -5.972339E-08,0.1930437,0.4242105
 	attPos0 = 6.339883E-07,-1.580674,-5.344809
 	rot = -0.2722107,-0.6526111,-0.2722107,-0.6526113
@@ -12212,7 +11781,7 @@ PART
 {
 	part = landingLeg1_4293751076
 	partName = Part
-	pos = -4.920599,13.61237,1.49198E-07
+	pos = -4.920599,14.10738,1.49198E-07
 	attPos = 0.4242105,0.1930437,-2.647198E-09
 	attPos0 = -5.34481,-1.580674,1.518452E-07
 	rot = -0.384964,-0.9229316,4.021531E-09,-1.564985E-10
@@ -12468,7 +12037,7 @@ PART
 {
 	part = landingLeg1_4293750960
 	partName = Part
-	pos = 1.231617E-08,13.61237,4.920599
+	pos = 1.231617E-08,14.10738,4.920599
 	attPos = 9.153551E-09,0.1930437,-0.4242105
 	attPos0 = 3.162616E-09,-1.580674,5.344809
 	rot = -0.2722107,-0.6526113,0.2722107,0.6526111
@@ -12722,254 +12291,9 @@ PART
 }
 PART
 {
-	part = KSPtM.MAV.heatshield_4293871790
-	partName = Part
-	pos = 0,11.85296,0
-	attPos = 0,0,0
-	attPos0 = 0,-3.14704,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 1
-	sidx = 12
-	sqor = 0
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	attN = top,KSPtMaeroshellMAV_4293883522
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		ejectionForcePercent_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-			Decouple
-			{
-				active = True
-				guiActive = True
-				guiIcon = Decouple
-				guiName = Decouple
-				category = Decouple
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = BBModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = USI_ModuleRecycleablePart
-		isEnabled = True
-		EVENTS
-		{
-			ScrapPart
-			{
-				active = True
-				guiActive = False
-				guiIcon = Scrap part
-				guiName = Scrap Part
-				category = Scrap part
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = USI_ModuleRecycleablePart
-		isEnabled = True
-		EVENTS
-		{
-			ScrapPart
-			{
-				active = True
-				guiActive = False
-				guiIcon = Scrap part
-				guiName = Salvage Part
-				category = Scrap part
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableDecouple
-		isEnabled = True
-		ejectionForce = 300
-		staged = True
-		ejectionForce_UIFlight
-		{
-			controlEnabled = True
-			minValue = -3.402823E+38
-			maxValue = 3.402823E+38
-			incrementSlide = 1
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleStagingToggle
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			EnableEvent
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Enable Staging
-				guiName = Enable Staging
-				category = Enable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			DisableEvent
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = Ablator
-		amount = 760
-		maxAmount = 760
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-}
-PART
-{
 	part = KSPtMtankDescentMAV_4293679606
 	partName = Part
-	pos = 3.255566,14.01544,2.271492E-07
+	pos = 3.255566,14.51045,2.271492E-07
 	attPos = 7.133416,-1.698772,-3.988674E-09
 	attPos0 = -3.87785,0.7142124,2.311379E-07
 	rot = -0.6738525,-0.214296,0.6738526,-0.2142959
@@ -13879,7 +13203,7 @@ PART
 {
 	part = KSPtMtankDescentMAV_4293679314
 	partName = Part
-	pos = -3.310235E-08,14.01544,3.255566
+	pos = -3.310235E-08,14.51045,3.255566
 	attPos = -3.310235E-08,-1.698772,-0.6222837
 	attPos0 = 4.339621E-16,0.7142124,3.87785
 	rot = -0.9529714,-2.107342E-08,4.214685E-08,-0.3030602
@@ -14789,7 +14113,7 @@ PART
 {
 	part = KSPtMtankDescentMAV_4293679268
 	partName = Part
-	pos = -2.515083E-07,14.01544,-3.255566
+	pos = -2.515083E-07,14.51045,-3.255566
 	attPos = -3.877851,-1.698772,-3.255566
 	attPos0 = 3.87785,0.7142124,-5.701503E-07
 	rot = 8.380255E-08,-0.3030602,0.9529714,3.432061E-08
@@ -15699,7 +15023,7 @@ PART
 {
 	part = KSPtMtankDescentMAV_4293679222
 	partName = Part
-	pos = -3.255566,14.01544,1.609445E-07
+	pos = -3.255566,14.51045,1.609445E-07
 	attPos = -3.255566,-1.698772,3.87785
 	attPos0 = -4.622758E-07,0.7142124,-3.87785
 	rot = 0.6738526,-0.2142959,0.6738525,0.214296
@@ -16609,7 +15933,7 @@ PART
 {
 	part = fuelLine_4293666066
 	partName = CompoundPart
-	pos = 3.69973,15.5924,1.457335E-07
+	pos = 3.69973,16.08741,5.140956E-07
 	attPos = 0,0,0
 	attPos0 = 1.752256E-07,-1.030732,-1.273453
 	rot = 8.370433E-08,-4.388376E-08,0.8062097,-0.5916299
@@ -16639,9 +15963,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293883522
-		pos = -0.2356953,-0.2608979,-0.006294691
-		rot = 0,-0.05670111,-0.3204253,0.9455753
-		dir = -0.6702499,-0.7419196,-0.01790014
+		pos = -0.2356954,-0.2608979,-0.006294627
+		rot = -2.795217E-10,-0.05670111,-0.3204254,0.9455755
+		dir = -0.6702504,-0.7419192,-0.01790012
 	}
 	MODULE
 	{
@@ -16782,7 +16106,7 @@ PART
 {
 	part = fuelLine_4293665564
 	partName = CompoundPart
-	pos = 1.60423E-07,15.5924,3.699731
+	pos = 1.60423E-07,16.08741,3.699731
 	attPos = 0,0,0
 	attPos0 = 1.752256E-07,-1.030733,-1.273453
 	rot = -0.5700763,0.4183455,0.5700764,-0.4183456
@@ -16812,9 +16136,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293883522
-		pos = -0.2357019,-0.2609056,-0.00629485
-		rot = 0,-0.05670138,-0.3204249,0.9455754
-		dir = -0.6702499,-0.7419196,-0.01790014
+		pos = -0.2357029,-0.2609059,-0.006294885
+		rot = 3.026136E-09,-0.0567014,-0.3204249,0.9455756
+		dir = -0.6702508,-0.7419187,-0.0179003
 	}
 	MODULE
 	{
@@ -16955,7 +16279,7 @@ PART
 {
 	part = fuelLine_4293665460
 	partName = CompoundPart
-	pos = -4.838636E-07,15.5924,-3.699731
+	pos = -4.838636E-07,16.08741,-3.699731
 	attPos = 0,0,0
 	attPos0 = 1.752256E-07,-1.030733,-1.273453
 	rot = 0.5700763,-0.4183456,0.5700763,-0.4183455
@@ -16985,9 +16309,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293883522
-		pos = -0.2356879,-0.2608899,-0.006294411
-		rot = 0,-0.05670077,-0.3204256,0.9455752
-		dir = -0.6702499,-0.7419196,-0.01790014
+		pos = -0.2356879,-0.2608899,-0.006294465
+		rot = 5.341766E-09,-0.05670078,-0.3204256,0.9455752
+		dir = -0.67025,-0.7419195,-0.01790022
 	}
 	MODULE
 	{
@@ -17128,7 +16452,7 @@ PART
 {
 	part = fuelLine_4293665356
 	partName = CompoundPart
-	pos = -3.69973,15.5924,5.763181E-07
+	pos = -3.69973,16.08741,1.282925E-06
 	attPos = 0,0,0
 	attPos0 = 8.55554E-08,-1.030732,-1.273453
 	rot = 0.8062097,-0.59163,-8.370432E-08,4.388377E-08
@@ -17158,9 +16482,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293883522
-		pos = -0.2356997,-0.2609031,-0.006294661
-		rot = 0,-0.05670129,-0.3204252,0.9455754
-		dir = -0.6702499,-0.7419196,-0.01790014
+		pos = -0.2356997,-0.2609029,-0.006294945
+		rot = -2.26313E-09,-0.0567013,-0.3204252,0.9455755
+		dir = -0.6702501,-0.7419194,-0.01790069
 	}
 	MODULE
 	{
@@ -17287,6 +16611,1077 @@ PART
 				guiIcon = Change Name Tag
 				guiName = Change Name Tag
 				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = escaleralad1_4294161510
+	partName = Strut
+	pos = 3.743753,16.48152,2.166075E-07
+	attPos = -0.2134209,0.2121582,-2.152035E-08
+	attPos0 = 3.957174,0.7743521,2.381278E-07
+	rot = -0.214296,0.6738526,-0.214296,-0.6738525
+	attRot = 0,0,0,1
+	attRot0 = -0.214296,0.6738526,-0.214296,-0.6738525
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,KSPtMaeroshellMAV_4293883522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = BBModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Scrap Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Salvage Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = escaleralad1_4294161382
+	partName = Strut
+	pos = 4.059314,16.03367,2.289618E-07
+	attPos = -0.3622637,0.4166517,-3.684667E-08
+	attPos0 = 4.421578,0.1220112,2.658085E-07
+	rot = -0.214296,0.6738526,-0.214296,-0.6738525
+	attRot = 0,0,0,1
+	attRot0 = -0.214296,0.6738526,-0.214296,-0.6738525
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,KSPtMaeroshellMAV_4293883522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = BBModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Scrap Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Salvage Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = escaleralad1_4294161166
+	partName = Strut
+	pos = 4.373797,15.5855,2.689159E-07
+	attPos = -0.4759779,0.5686874,-3.54537E-08
+	attPos0 = 4.849775,-0.4781914,3.043696E-07
+	rot = -0.2142959,0.6738526,-0.214296,-0.6738526
+	attRot = 0,0,0,1
+	attRot0 = -0.2142959,0.6738526,-0.214296,-0.6738526
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,KSPtMaeroshellMAV_4293883522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = BBModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Scrap Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Salvage Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = escaleralad1_4294146006
+	partName = Strut
+	pos = 4.68993,15.14047,2.855055E-07
+	attPos = -0.1057978,0.0523243,-1.564254E-08
+	attPos0 = 4.795728,-0.4068642,3.011481E-07
+	rot = -0.2142959,0.6738526,-0.214296,-0.6738526
+	attRot = 0,0,0,1
+	attRot0 = -0.2142959,0.6738526,-0.214296,-0.6738526
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,KSPtMaeroshellMAV_4293883522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = BBModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Scrap Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Salvage Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KSPtM.MAV.heatshield_4293950900
+	partName = Part
+	pos = 0,12.34797,0
+	attPos = 0,0,0
+	attPos0 = 0,-3.14704,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 1
+	sidx = 4
+	sqor = 2
+	sepI = 2
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,KSPtMaeroshellMAV_4293883522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		ejectionForcePercent_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = BBModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Scrap Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Salvage Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 300
+		staged = True
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			EnableEvent
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Enable Staging
+				guiName = Enable Staging
+				category = Enable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableEvent
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Ablator
+		amount = 760
+		maxAmount = 760
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KW5mStageDecoupler_4294245674
+	partName = Part
+	pos = 0,17.70982,0
+	attPos = 0,0,0
+	attPos0 = 0,2.214809,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = bottom,KSPtMaeroshellMAV_4293883522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		ejectionForcePercent_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = BBModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 5
+		defaultScale = 5
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 1000
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Scrap Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = USI_ModuleRecycleablePart
+		isEnabled = True
+		EVENTS
+		{
+			ScrapPart
+			{
+				active = True
+				guiActive = False
+				guiIcon = Scrap part
+				guiName = Salvage Part
+				category = Scrap part
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 750
+		staged = True
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			EnableEvent
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Enable Staging
+				guiName = Enable Staging
+				category = Enable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableEvent
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
